@@ -14,7 +14,6 @@ const Roadmap = () => (
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
-
           return (
             <div
               className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
@@ -33,8 +32,8 @@ const Roadmap = () => (
                   />
                 </div>
                 <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                    <Tagline>{item.date}</Tagline>
+                  <div className="flex items-center justify-end max-w-[27rem] mb-8 md:mb-20">
+                    {/* <Tagline>{item.date}</Tagline> */}
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
@@ -67,7 +66,9 @@ const Roadmap = () => (
 
         <Gradient />
       </div>
-
+      {/* <div>
+        <h1>Ready...!!</h1>
+      </div> */}
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/roadmap">Our roadmap</Button>
       </div>
