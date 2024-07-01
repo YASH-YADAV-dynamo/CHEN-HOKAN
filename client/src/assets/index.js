@@ -9,6 +9,7 @@ import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 import yourlogo from "./yourlogo.svg";
+import yourAi from "./ai.png";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -74,6 +75,10 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import yourSol from "./solidity.svg";
+import yourNode from "./node.svg";
+import yourReact from "./reactjs.svg";
+import yourHard from "./hardhat.png";
 
 export {
   brainwave,
@@ -144,4 +149,9 @@ export {
   instagram,
   telegram,
   twitter,
+  yourAi,
+  yourSol,
+  yourReact,
+  yourNode,
+  yourHard,
 };

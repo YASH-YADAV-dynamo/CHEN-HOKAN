@@ -4,16 +4,21 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-
+import { curve} from "../assets";
 const Benefits = () => {
   return (
     <Section id="features">
       <div className="container relative z-2">
-        <Heading
+        {/* <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
-        />
-
+          title=" "
+        /> */}
+        <div className="flex justify-center mb-6">
+        <h1 className="h1 mb-6">
+            Get Your Gamify Experience!
+          </h1>
+        </div>
+        
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
