@@ -35,7 +35,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Lock-Safe</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Chen-Hokan  is world’s first blockchain locker powered by AI to make your folder & files managing look like a game!
+                Chen-Hokan  is blockchain locker powered by AI to make your folder & files managing look like a game!
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -55,7 +55,7 @@ const Services = () => {
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
+              <div className="absolute inset-2">
                 <img
                   src={service2}
                   className="h-full w-full object-cover"
@@ -67,12 +67,12 @@ const Services = () => {
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Gamifying your media management experience</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
+                {/* <p className="body-2 mb-[3rem] text-n-3">
                   Ever saw Iron-Man  and wanted to have something like his Desk ,where using hands you can move files here and there and keep them ultra safe !
-                </p>
+                </p> */}
               </div>
 
-              <PhotoChatMessage />
+              {/* <PhotoChatMessage /> */}
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
@@ -115,8 +115,8 @@ const Services = () => {
                   alt="Scary robot"
                 />
 
-                <VideoChatMessage />
-                <VideoBar />
+                {/* <VideoChatMessage /> */}
+                {/* <VideoBar /> */}
               </div>
             </div>
           </div>
