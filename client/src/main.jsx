@@ -1,14 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router } from "react-router-dom";
+// src/main.jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import App from './App';
+import NewPage from './NewPage'; // Your new page component
+import './index.css';
 
-import App from "./App.jsx";
-import "./index.css";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
-      <App />
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/new-page" element={<NewPage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
